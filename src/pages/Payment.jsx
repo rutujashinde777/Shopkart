@@ -3,7 +3,7 @@ import { useNavigate, useNavigation } from 'react-router-dom'
 import { CartContext } from '../Context/CartContext'
 
 function Payment() {
-    const{state}=useContext(CartContext);
+    const{state,dispatch}=useContext(CartContext);
         const nav=useNavigate();
 
 
